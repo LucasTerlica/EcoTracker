@@ -2,6 +2,8 @@
 
 Este projeto é uma aplicação web desenvolvida em Flask para visualizar e analisar a distribuição geográfica de espécies com base em dados da API GBIF. Inclui funcionalidades de geração de mapas, visualização de dados e comparação entre espécies.
 
+⚠️ **AVISO: A WebApp ainda está em desenvolvimento!** ⚠️
+
 ## 📑 Funcionalidades
 
 - **Mapa de Ocorrências:** Visualize a distribuição geográfica de uma espécie com base em filtros opcionais.
