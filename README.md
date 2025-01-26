@@ -22,7 +22,7 @@ Este projeto é uma aplicação web desenvolvida em Flask para visualizar e anal
 
 ## ⚙️ Como Aceder ao Projeto
 
-Insira " http://ecotracker.me/ " na barra de pesquisa do seu Browser
+➡️ http://ecotracker.me/
 
 ## 🐛 Relatar Problemas
 
