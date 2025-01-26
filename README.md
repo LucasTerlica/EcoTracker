@@ -18,12 +18,9 @@ Este projeto é uma aplicação web desenvolvida em Flask para visualizar e anal
 - **Gráficos:** Matplotlib
 - **Serviços:** Docker, Docker Compose, Lighttpd
 
-## ⚙️ Como Executar o Projeto
+## ⚙️ Como Aceder ao Projeto
 
-1. Clone o repositório no GitLab.
-2. Construa e inicie os containers utilizando `docker-compose up --build`.
-3. Acesse a aplicação no navegador através de `http://localhost:5000`.
-4. Execute os testes, caso necessário, utilizando `pytest`.
+Insira " http://ecotracker.me/ " na barra de pesquisa do seu Browser
 
 ## 🐛 Relatar Problemas
 
