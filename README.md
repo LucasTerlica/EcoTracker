@@ -1,8 +1,6 @@
-# Ecotracker
+# 🌍 Ecotracker
 
 Este projeto é uma aplicação web desenvolvida em Flask para visualizar e analisar a distribuição geográfica de espécies com base em dados da API GBIF. Inclui funcionalidades de geração de mapas, visualização de dados e comparação entre espécies.
-
-⚠️ **AVISO: A WebApp ainda está em desenvolvimento!** ⚠️
 
 ## 📑 Funcionalidades
 
@@ -13,16 +11,22 @@ Este projeto é uma aplicação web desenvolvida em Flask para visualizar e anal
 
 ## 🚀 Tecnologias Utilizadas
 
-- **Backend:** Flask
+- **Backend:** Flask, Gunicorn
 - **Frontend:** Jinja2 (HTML), CSS
 - **APIs:** GBIF (Global Biodiversity Information Facility)
 - **Mapas:** Folium
 - **Gráficos:** Matplotlib
-- **Serviços:** Docker, Docker Compose, Lighttpd
+- **Serviços:** Docker, Docker Compose, Nginx
+- **Testes:** Pytest
 
-## ⚙️ Como Aceder ao Projeto
+## 🌐 Instância e Domínio
 
-➡️ http://ecotracker.me/
+A aplicação está atualmente hospedada na AWS, com um domínio gerido pelo dominios.pt:
+http://ecotracker.me/
+
+## 💡 Observações
+
+O ficheiro lighttpd.conf está incluído, mas não é usado na configuração atual. O projeto usa Nginx como proxy reverso.
 
 ## 🐛 Relatar Problemas
 
@@ -35,4 +39,3 @@ Este projeto está licenciado sob a licença MIT. Consulte o ficheiro `LICENSE` 
 ---
 
 Desenvolvido com ❤️ por Lucas Terlica e Joana Caetano.
-
